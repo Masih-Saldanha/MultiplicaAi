@@ -7,8 +7,8 @@ public class App {
         final int number = sc.nextInt();
 
         System.out.println("Tabela de multiplicação de " + number);
-        // for (int i = 0; i < args.length; i++) {
-            
-        // }
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i + " x " + number + " = " + (i * number));
+        }
     }
 }
